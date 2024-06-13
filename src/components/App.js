@@ -7,6 +7,7 @@ const App = () => {
 
   const buttonClickHandler = () => {
     setIsButtonClicked(true);
+    setPixelToMove((prev) => prev + 5);
   };
 
   const handleKeydown = (e) => {
